@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #e1ecda url(../images/body_bg.png) repeat-x;
+	margin:0;
+	padding:0;
+	color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#conteiner {
+	width: 850px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+.bigblacktitle {
+	color: #000;
+	font-family: Impact, sans-serif;
+	font-size: 36px;
+	font-weight: normal;
+	padding: 0 0 0 25px;
+}
+.greensubtitle {
+	color: #107702;
+	font-weight:normal;
+	font-size: 18px;
+	padding: 0 0 0 25px;
+}
+#conteiner div.affiliates_main {
+	width: 556px;
+	float: left;
+	margin: 28px 0 0 13px;
+}
+#conteiner div.affiliates_main h2.titleGreen {
+	color: #107702;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 25px 0 10px;
+}
+#conteiner h1.titleAffilites {
+	color: #339e0e;
+	font-weight: normal;
+	text-shadow: -1px 0 #036000, 0 1px #036000, 1px 0 #036000, 0 -1px #036000;
+	font-size: 20px;
+	background: url(images/tetle_bg_arrow.png) no-repeat;
+	height: 40px;
+	padding: 16px 0 0 60px;
+}
+#conteiner p.affPadp {
+	padding-left: 60px;
+}
+#conteiner p.affPadp span.example {
+	color: #ed3225;
+}
+#conteiner div.popUp {
+	width: 200px;
+	float: left;
+	padding:50px 0 0 0;
+	
+}
+#conteiner div.popUp ul {
+	list-style: none;
+	margin-right:20px;
+	float:left
+}
+.spacer {
+	padding-bottom: 5px;
+}
+.clear {
+	clear: both;
+	height: 0;
+}
+#conteiner ul.bottom_list_aff {
+	list-style: none;
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#conteiner ul.bottom_list_aff li {
+	color: #322922;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 8px 0 0 42px;
+	margin-bottom: 12px;
+}
+#conteiner ul.bottom_list_aff li.one {
+	background: url(images/one.png) no-repeat;
+	height: 32px;
+}
+#conteiner ul.bottom_list_aff li.two {
+	background: url(images/two.png) no-repeat;
+	height: 32px;
+}
+#conteiner h1.bottomTitle {
+	color: #339e0e;
+	font-weight: normal;
+	text-shadow: -1px 0 #036000, 0 1px #036000, 1px 0 #036000, 0 -1px #036000;
+	font-size: 28px;
+	height: 40px;
+	padding: 0 0 20px 60px;
+	text-align: center;
+}

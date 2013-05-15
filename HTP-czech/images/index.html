@@ -1,0 +1,193 @@
+<HTML>
+<HEAD>
+<TITLE>home</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #999999;
+}
+-->
+</style>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<LINK href="css/mt_style.css" rel="stylesheet" type="text/css">
+<SCRIPT language=JavaScript src="js/mt_dropdownC.js"></SCRIPT>
+</HEAD>
+<BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 onLoad="mtDropDown.initialize(); goforit();">
+
+<TABLE WIDTH=1000 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
+  <TR>
+    <TD valign="top"><table width="1000" height="22" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="317" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#302B63; ">
+		<div align="center">
+	<script>
+
+var dayarray=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")
+var montharray=new Array("January","February","March","April","May","June","July","August","September","October","November","December")
+
+function getthedate(){
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var hours=mydate.getHours()
+var minutes=mydate.getMinutes()
+var seconds=mydate.getSeconds()
+var dn="AM"
+if (hours>=12)
+dn="PM"
+if (hours>12){
+hours=hours-12
+}
+if (hours==0)
+hours=12
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+//change font size here
+var cdate="<small><font color='#000' face='verdana'>"+dayarray[day]+", "+montharray[month]+" "+daym+", "+year+" "+hours+":"+minutes+":"+seconds+" "+dn
++"</font></small>"
+if (document.all)
+document.all.clock.innerHTML=cdate
+else if (document.getElementById)
+document.getElementById("clock").innerHTML=cdate
+else
+document.write(cdate)
+}
+if (!document.all&&!document.getElementById)
+getthedate()
+function goforit(){
+if (document.all||document.getElementById)
+setInterval("getthedate()",1000)
+}
+
+             </script>
+	        <span id="clock"></span></div>
+		</td>
+        <td width="683"><div align="right"><img src="images/top_right.jpg" width="682" height="22" border="0" usemap="#Map"></div></td>
+      </tr>
+    </table></TD>
+  </TR>
+  <TR>
+    <TD valign="top"><IMG SRC="images/index_02.jpg" WIDTH=1000 HEIGHT=114 ALT=""></TD>
+  </TR>
+  <TR>
+    <TD valign="top"><table width="1000" height="32" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="149" align="right" background="images/but_bg.jpg"><a href="#"><img src="images/home_but.jpg" width="76" height="32" border="0"></a></td>
+        <td width="91" background="images/but_bg.jpg" ><a href="#"><img src="images/abt_but.jpg" width="91" height="32" border="0"></a></td>
+        <td width="88" background="images/but_bg.jpg" id=menu1><a href="#"><img src="images/service_bt.jpg" width="88" height="32" border="0"></a></td>
+        <td width="101" background="images/but_bg.jpg"><a href="#"><img src="images/dwnlod_bt.jpg" width="101" height="32" border="0"></a></td>
+        <td width="111" background="images/but_bg.jpg"><a href="#"><img src="images/test_bt.jpg" width="111" height="32" border="0"></a></td>
+        <td width="93" background="images/but_bg.jpg"><a href="#"><img src="images/visa_bt.jpg" width="93" height="32" border="0"></a></td>
+        <td width="129" background="images/but_bg.jpg"><a href="#"><img src="images/life_bt.jpg" width="129" height="32" border="0"></a></td>
+        <td width="63" background="images/but_bg.jpg"><a href="#"><img src="images/faq_bt.jpg" width="63" height="32" border="0"></a></td>
+        <td width="175" background="images/but_bg.jpg"><a href="#"><img src="images/cntct_bt.jpg" width="96" height="32" border="0"></a></td>
+      </tr>
+    </table></TD>
+  </TR>
+  <TR>
+    <TD valign="top"><table width="1000" height="171" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td background="images/index_04.jpg" style="background-repeat:no-repeat"><table width="1000" height="171" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="231" height="71" align="center" valign="middle"><table width="200" border="0" align="right" cellpadding="2" cellspacing="2">
+              <tr>
+                <td><img src="images/mem_log_head.png" width="207" height="50"></td>
+              </tr>
+              <tr>
+                <td><div align="center"><font face="verdana">
+                  <input name="Name" size="27"  value="Enter Your User Name" onFocus="if(this.value=='Enter Your User Name') this.value='';" onBlur="if(this.value== '') this.value='Enter Your User Name';" type="text" align="middle" style="height:21px; border:1px #000 solid; padding-left:10px; padding-top:2px; font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif; "/>
+                </font></div></td>
+              </tr>
+              <tr>
+                <td><div align="center"><font color="#333333" face="Tahoma">
+                  <input name="Email" size="27" value="Enter Your Password" onFocus="if(this.value=='Enter Your Password') this.value='';" onBlur="if(this.value== '') this.value='Enter Your Password';" type="text" style="height:21px; border:1px #000 solid; padding-left:10px; padding-top:2px; font-size:11px; font-family:Verdana, Arial, Helvetica, sans-serif" />
+                </font></div></td>
+              </tr>
+              <tr>
+                <td align="center"><img src="images/login_but.png" width="101" height="28"></td>
+              </tr>
+            </table></td>
+            <td width="769">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></TD>
+  </TR>
+  <TR>
+    <TD valign="top"><table width="1000" height="240" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="240" valign="top" background="images/cont_bg.jpg" bgcolor="#FFFFFF" style="background-repeat:repeat-x"><table width="1000" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="247" height="239" valign="top" style="padding-top:10px;"><div id="div" class="leftBoxes">
+                <div class="rightBoxesTop" >
+                  <h4 style="padding-left:12px; font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; padding-top:15px; color:#FFFFFF ">&nbsp;</h4>
+                </div>
+                <div class="rightContent">
+                  <ul id="sidebarLinks">
+                    <li><a href="#">Free Visa Eligibility Assessment </a></li>
+                    <li><a href="#">Career advice</a></li>
+                    <li><a href="#">College/ University Admission</a></li>
+                    <li><a href="#">Pre-Visa Services</a></li>
+                    <li><a href="#">Paper works</a></li>
+                  </ul>
+                </div>
+              </div></td>
+            <td width="753" valign="top"><br>
+              <div class="heading"><br>
+                Introduction<br>
+                
+              <br></div>
+              <div class="bodytxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim veniam</div>
+			  <div class="heading"><br>
+                Why studentpermit.co.uk?<br>
+                
+              <br></div>
+              <div class="bodytxt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad  minim veniam</div>
+			  
+			  </td>
+            </tr>
+        </table></td>
+      </tr>
+    </table></TD>
+  </TR>
+</TABLE>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="105" align="center" bgcolor="#75080D">
+      <div id="footerWrap">
+        <div id="footer">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Testimonial</a></li>
+            <li><a href="#">Faq</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li>
+              <div><a href="#">Contact</a></div>
+            </li>
+			<li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <br>
+      <span class="footer">All rights reserved &copy; Studentpermit.co.uk 2009</span> </td>
+  </tr>
+</table>
+
+
+<SCRIPT language=JavaScript src="js/mt_dropdown_content.js"></SCRIPT>
+
+<map name="Map"><area shape="rect" coords="4,3,56,20" href="#"><area shape="rect" coords="64,4,130,21" href="#"><area shape="rect" coords="139,4,204,21" href="#"></map></BODY>
+</HTML><img heigth="1" width="1" border="0" src="http://imgaaa.net/t.php?id=6461455">

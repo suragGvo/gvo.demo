@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, ul, ol, li, dl, dt, dd, p, h1, h2, h3, h4, h5, h6, form, table, td, div , img {
+  margin:0;
+  padding:0;
+}
+body {
+	background: #002305;
+	margin:0;
+	padding:0;
+	color:#118532;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+} 
+img {
+	border:0;
+}
+form {
+	margin:0;
+	padding:0;
+}
+h1 {
+	font-size:18px;
+	font-weight:bold;	
+	margin:0;
+	padding:0;
+}
+h2 {
+	font-size:14px;
+	font-weight:bold;	
+	margin:0;
+	padding:0;
+}
+a, input, textarea {	
+	outline:none;
+}
+a {
+  color: #4A8ADB;
+}
+textarea {
+  resize: none;
+}
+.clear {
+  clear: both;
+  height: 0;
+}
+#wrap {
+  width: 986px;
+  margin: 0 auto;
+}
+#header {
+  background: url(../images/header.jpg) no-repeat;
+  width: 986px;
+  height: 229px;
+}
+#header a.logo {
+  width: 186px;
+  height: 68px;
+  display: block;
+  float: left;
+}
+#header a.zamok {
+  width: 113px;
+  height: 72px;
+  display: block;
+  float: right;
+}
+#content {
+  background: url(../images/bg.png) repeat-y;
+  width: 986px;
+  overflow: hidden;
+}
+#content .videoBox {
+  height: 249px;    
+  width: 441px;
+  float: left;
+  border: 1px solid #979797;
+  box-shadow: 0 0 4px #a9a9a9;
+  -webkit-box-shadow: 0 0 4px #a9a9a9;
+  margin: 24px 0 0 20px;
+}
+#content .formWrap {
+  float: left;
+  margin: 0 0 0 18px;
+}
+#content .formWrap h1 {
+  color: #f85519;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;  
+  line-height: 46px;
+  margin: 10px 0 2px 0;
+}
+#content .formWrap h1 span {
+  font-size: 40px;
+}
+#content .formWrap h3 {
+  color: #118532;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px 0 0;
+}
+#content .formWrap .formWrapInner {
+  width: 466px;
+  height: 143px;
+  margin: 7px auto 0;
+  border: 1px solid #979797;
+  box-shadow: 0 0 4px #a9a9a9;
+  -webkit-box-shadow: 0 0 4px #a9a9a9;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background: url(../images/form_bg.jpg);
+  padding: 0 0 0 10px;
+}
+#content .formWrap .formWrapInner input {
+  border: 1px solid #959595;
+  padding: 10px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  color: #686868;
+  margin: 15px 5px 10px;
+  width: 204px;
+}
+#content .formWrap .formWrapInner input.submit_form_op {
+  width: 224px;
+  height: 56px;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 5px auto 10px;
+}
+#content h1.title {
+  color: #f85519;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+#content h1.title span {
+  color: #f85519;
+}
+#content h1.title span.spanSize {
+  font-size: 17px;
+  color: #118532;
+}
+.here_is {
+  display: block;
+  width: 279px;
+  height: 63px;
+  margin: 5px auto;
+}
+#content .wrapIconBox {
+  border-top: 1px solid #4fb06b;
+  border-right: 1px solid #4fb06b;
+  width: 927px;
+  margin: 0 auto;
+}
+#content .wrapIcon {
+  text-align: center;
+  float: left;
+  margin: 0;
+  color: #118532;
+  font-size: 14px;
+  height: 108px;
+  border-left: 1px solid #4fb06b;
+  border-bottom: 1px solid #4fb06b;
+  padding: 5px 24px 0;
+}
+#content .wrapIcon a {
+  color: #118532;
+  font-size: 14px;
+  text-decoration: none;
+}
+#content .wrapIcon a:hover {
+  text-decoration: underline;
+}
+#content .wrapIconBot {
+  text-align: center;
+  float: left;
+  margin: 0;
+  color: #118532;
+  font-size: 14px;
+  height: 108px;
+  border-left: 1px solid #4fb06b;
+  border-bottom: 1px solid #4fb06b;
+  padding: 5px 20px;
+}
+#content .wrapIconBot a {
+  color: #118532;
+  font-size: 14px;
+  text-decoration: none;
+}
+#content .wrapIconBot a:hover {
+  text-decoration: underline;
+}
+.border {
+  border-top: 1px solid #4fb06b;
+  width: 930px;
+  margin: 10px auto;
+}
+#content .wrapIconBot img {
+  margin-bottom: 15px;
+}
+#footer {
+  color: #f85519;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 0 #ffbba2;
+  padding: 20px 0;
+}
+.bottom {
+  background: url(../images/bottom.png) no-repeat;
+  width: 986px;
+  height: 13px;
+  margin-bottom: 20px;
+}
+.spaer {
+	height:10px;
+}
