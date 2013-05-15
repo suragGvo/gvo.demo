@@ -539,7 +539,7 @@ function getLinks(){
                                                             <table width="473"  border="0" align="center" cellpadding="0" cellspacing="2" bordercolor="#FFFFFF">
                                                               <tbody>
                                                                 <tr>
-                                                                  <td height="56" colspan="2"><div align="center" class="style3"><strong>... а также ...</strong></div></td>
+                                                                  <td height="56" colspan="2"><div align="center" class="style3"><strong>... Web Hosting...</strong></div></td>
                                                                 </tr>
                                                                 <tr>
                                                                   <td width="289" bgcolor="#337A0B" class="mainlink"><div align="left">7 дней использования за 1$</div></td>
